@@ -1,5 +1,3 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <app-header></app-header>
-<app-student [student] = "luke" ></app-student>
-<app-student [student] = "han" ></app-student>
-<app-student [student] = "lea" ></app-student>
+<app-student *ngFor= "let student of students" [student] = "student"></app-student>
