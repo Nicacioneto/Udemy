@@ -1,0 +1,61 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/jedi-academy/dist
+/meat-app-starter/dist
+
+/tmp
+/out-tsc
+
+# dependencies
+/jedi-academy/node_modules
+/meat-app-starter/node_modules
+
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/jedi-academy/.sass-cache
+/jedi-academy/connect.lock
+/jedi-academy/coverage
+/jedi-academy/libpeerconnection.log
+/jedi-academy/npm-debug.log
+/jedi-academy/testem.log
+/jedi-academy/typings
+
+/meat-app-starter/.sass-cache
+/meat-app-starter/connect.lock
+/meat-app-starter/coverage
+/meat-app-starter/libpeerconnection.log
+/meat-app-starter/npm-debug.log
+/meat-app-starter/testem.log
+/meat-app-starter/typings
+
+
+
+
+# e2e
+/jedi-academy/e2e/*.js
+/jedi-academy/e2e/*.map
+
+
+/meat-app-starter/e2e/*.js
+/meat-app-starter/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
