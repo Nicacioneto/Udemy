@@ -15,6 +15,8 @@ export class ShoppingCartService{
         founditem.quantity = founditem.quantity + 1
       } else {
         this.items.push(new CartItem(item))
+        console.log("AddItem")
+
       }
   }
 
