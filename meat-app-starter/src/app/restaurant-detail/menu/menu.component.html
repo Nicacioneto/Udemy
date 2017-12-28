@@ -3,7 +3,7 @@
 
 <mt-menu-item
 *ngFor="let item of menu | async"
-[menuItem]="item"></mt-menu-item>
+[menuItem]="item" (add) = "addMenuItem($event)"></mt-menu-item>
     <!-- /.info-box -->
 
   </div>
